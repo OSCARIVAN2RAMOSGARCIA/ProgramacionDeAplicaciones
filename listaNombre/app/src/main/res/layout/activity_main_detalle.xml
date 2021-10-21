@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMainDetalle">
+
+
+    <TextView
+        android:id="@+id/txtDetalleCuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle alumno"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/txtDetalleNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:text="Regresar"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="211dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itmEditar"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Regresar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itm_Borrar"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Borrar"
+        app:showAsAction="always"
+        />
+</menu>
